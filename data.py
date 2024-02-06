@@ -25,17 +25,28 @@
 # y=input("give me a number")
 # *cant add string to a number [error]
 # print(y)
-# print(int(y) + 9)
+# print(int(y) + 9) 
 
-message = "Please input number below"
-words = message.split( )
 
-# input = 
-value = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
-x = "13"
+# TIP CALCULATOR***
 
-if x == value[0-15]:
-    print("odd")
-    
-else:
-    print("even")
+# message = "enter bill"
+# print(message)
+# x = input()
+
+# message = "tip"
+# print(message)
+# y = input()
+
+# print("This is your total")
+# print(int(y)+ int(x))
+
+
+#print(x%2)
+
+# CHARACTER COUNTER
+
+sentence = input("Insert cool catchphrase here")
+
+words = sentence.split( )
+print(len(words))
