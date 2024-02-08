@@ -42,11 +42,9 @@
 # print(int(y)+ int(x))
 
 
-#print(x%2)
-
 # CHARACTER COUNTER
 
-sentence = input("Insert cool catchphrase here")
+# sentence = input("Insert cool catchphrase here")
+# words = sentence.split( )
+# print(len(words))
 
-words = sentence.split( )
-print(len(words))

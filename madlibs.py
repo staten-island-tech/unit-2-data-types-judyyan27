@@ -18,4 +18,10 @@ print(message)
 
 d = input()
 
-print(f"The {b} {a} {c} to school. The, the {b} {a} became a {d} {b} {a}")
+message=("Please enter personality trait")
+print(message)
+
+e = input()
+
+
+print(f"The {b} {a} {c} to school. Then, the {b} {a} became a {d} {e} {b} {a}")
