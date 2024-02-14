@@ -9,6 +9,6 @@ print(remainder)
 
 
 if remainder == 0:
-    print("even")
+    print("Even")
 else:
-    print("odd")
+    print("Odd")
