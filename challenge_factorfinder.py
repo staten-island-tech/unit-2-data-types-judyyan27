@@ -19,6 +19,6 @@ for i in range (2,number2):
         factors_2.append(i)
 
 else:
-    print(f"Factors of number 1: {factors_1}")
-    print(f"Factors of number 2: {factors_2}")    
+    print(f"Factors of {number1}: {factors_1}")
+    print(f"Factors of {number2}: {factors_2}")    
 
