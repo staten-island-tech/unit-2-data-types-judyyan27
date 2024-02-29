@@ -14,11 +14,11 @@ for i in range (1,number1+1):
     if number1%i == 0:
         factors_1.append(i)
 
-for i in range (2,number2+1):
+for i in range (1,number2+1):
     if number2%i == 0:
         factors_2.append(i)
 
 else:
-    print(f"Factors of {number1}: {factors_1[-1]}")
-    print(f"Factors of {number2}: {factors_2[-1]}")    
+    print(f"Factors of {number1}: {factors_1}")
+    print(f"Factors of {number2}: {factors_2}")    
 
