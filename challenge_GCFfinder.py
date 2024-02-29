@@ -1,10 +1,5 @@
-message = "Enter a number:"
-print(message)
-n1 = int(input())
-
-message = "Enter another number:"
-print(message)
-n2 = int(input())
+n1 = int(input("Enter a number:"))
+n2 = int(input("Enter another number:"))
 
 if  n1 > n2:
     x = n2
@@ -19,7 +14,6 @@ elif n2 == n1:
     y = n1
 
 possible_gcf = []
-
 list = []
 
 def number():
