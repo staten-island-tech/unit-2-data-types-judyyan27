@@ -1,12 +1,36 @@
+message = "Enter a number:"
+print(message)
+n1 = int(input())
 
-m = int(input("Enter your first number:"))
-n = int(input("Enter your second number:"))
+message = "Enter another number:"
+print(message)
+n2 = int(input())
 
-def GCF(m,n):
-    if n == 0:
-        return m
-    else:
-        return GCF(n, m%n)
+if  n1 > n2:
+    x = n2
+    y = n1
 
+elif n2 > n1:
+    x = n1
+    y = n2
 
-print("Your GCF between the two numbers are", GCF(m,n))
+elif n2 == n1:
+    x = n2
+    y = n1
+
+possible_gcf = []
+
+list = []
+
+def number():
+    for i in range (1,x+1):
+        if x%i == 0:
+            possible_gcf.append(i)
+number()
+
+for i in possible_gcf:
+    if y%i == 0:
+        list.append(i)
+        
+else:
+    print(f"The GCF is: {list[-1]}")
