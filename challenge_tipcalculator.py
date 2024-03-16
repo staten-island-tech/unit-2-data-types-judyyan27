@@ -1,14 +1,7 @@
 # TIP CALCULATOR***
+x = int(input("enter bill: "))
 
-message = "enter bill"
-print(message)
-x = input()
+y = int(input("tip: "))
 
-message = "tip"
-print(message)
-y = input()
-
-print("This is your total")
-a = (int(y)+ int(x))
-
+a = (y + x)
 print(f"Your bill is ${x}, your tip is ${y}, and your total is ${a}")

@@ -1,3 +1,5 @@
+#TIP SERVICE
+
 message = ("Please enter bill:")
 print(message)
 a = input()

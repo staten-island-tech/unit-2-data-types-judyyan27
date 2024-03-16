@@ -1,3 +1,4 @@
+# ODD OR EVEN
 
 message = ("Enter number below:")
 print(message)
@@ -9,6 +10,6 @@ print(remainder)
 
 
 if remainder == 0:
-    print("Even")
+    print("even")
 else:
-    print("Odd")
+    print("odd")

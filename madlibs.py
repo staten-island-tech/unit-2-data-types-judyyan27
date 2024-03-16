@@ -1,3 +1,5 @@
+# MAD LIBS
+
 message=("Please enter animal")
 print(message)
 
